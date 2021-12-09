@@ -12,6 +12,7 @@ run the install script
 ```bash
 sudo bash install.sh
 ```
+###### select yes for both iptables prompts
 To remove:
 ```bash
 sudo bash uninstall.sh
