@@ -1,4 +1,4 @@
-sudo apt install hostapd dnsmasq -y
+sudo apt install dnsmasq hostapd iptables-persistent -y
 
 sudo cp -r usr-dns-sinkhole-ap* /usr/share/dns-sinkhole-ap
 sudo cp dns-sinkhole-ap.sh /usr/bin/dns-sinkhole-ap
