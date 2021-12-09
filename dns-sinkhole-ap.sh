@@ -1,4 +1,3 @@
-#echo $(whoami) >> ~/Desktop/reads.txt
 
 
 
