@@ -84,6 +84,8 @@ sudo hostapd /usr/share/dns-sinkhole-ap/temp-run/hostapd.conf -B #  >> /home/pi/
 
 # set up DNS
 echo "starting afterhostapd.sh ..." #  >> /home/pi/Desktop/allinone.log
+touch /tmp/dnsmasq.log
+chmod 777 /tmp/dnsmasq.log
 sudo bash /usr/share/dns-sinkhole-ap/temp-run/run-afterhostapd.sh #  >> /home/pi/Desktop/allinone.log
 
 # set up IP forwarding
