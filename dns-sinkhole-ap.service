@@ -1,0 +1,14 @@
+[Unit]
+Description=stats3
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/bash dns-sinkhole-ap
+WorkingDirectory=/usr/bin/dns-sinkhole-ap
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
