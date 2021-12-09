@@ -1,7 +1,6 @@
 
 
 
-
 wlan0=$(sudo cat /sys/class/net/wlan0/address)
 wlan1=$(sudo cat /sys/class/net/wlan1/address)
 

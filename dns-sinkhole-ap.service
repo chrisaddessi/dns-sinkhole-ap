@@ -3,8 +3,8 @@ Description=stats3
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/bash /usr/bin/dns-sinkhole-ap
-WorkingDirectory=/usr/share/dns-sinkhole-ap
+ExecStart=/usr/bin/bash dns-sinkhole-ap
+WorkingDirectory=/usr/bin/dns-sinkhole-ap
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
