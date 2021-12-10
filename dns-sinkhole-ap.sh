@@ -1,5 +1,5 @@
 #!/bin/bash
-echo $(date) >> /home/pi/Desktop/allinone.log
+#echo $(date) >> /home/pi/Desktop/allinone.log
 
 
 
@@ -18,9 +18,9 @@ then
 	interfacemain="wlan0"
 fi
 
-echo "################################################################ START ###################################################"   >> /home/pi/Desktop/allinone.log
-echo "REALTEK Interface: $interface"   >> /home/pi/Desktop/allinone.log
-echo "MAIN interface: $interfacemain"   >> /home/pi/Desktop/allinone.log
+#echo "################################################################ START ###################################################"   >> /home/pi/Desktop/allinone.log
+#echo "REALTEK Interface: $interface"   >> /home/pi/Desktop/allinone.log
+#echo "MAIN interface: $interfacemain"   >> /home/pi/Desktop/allinone.log
 
 
 
@@ -76,20 +76,20 @@ done < /usr/share/dns-sinkhole-ap/ipforward.sh
 sudo pkill dnsmasq
 
 # PUT REALTEK into Monitor Mode
-echo "starting mon.sh ..."   >> /home/pi/Desktop/allinone.log
-sudo bash /usr/share/dns-sinkhole-ap/temp-run/run-mon.sh   >> /home/pi/Desktop/allinone.log
+#echo "starting mon.sh ..."   >> /home/pi/Desktop/allinone.log
+sudo bash /usr/share/dns-sinkhole-ap/temp-run/run-mon.sh   #>> /home/pi/Desktop/allinone.log
 
 # Start AP
-echo "starting hostapd ..."   >> /home/pi/Desktop/allinone.log
-sudo hostapd /usr/share/dns-sinkhole-ap/temp-run/hostapd.conf -B   >> /home/pi/Desktop/allinone.log
+#echo "starting hostapd ..."   >> /home/pi/Desktop/allinone.log
+sudo hostapd /usr/share/dns-sinkhole-ap/temp-run/hostapd.conf -B   #>> /home/pi/Desktop/allinone.log
 
 # set up DNS
-echo "starting afterhostapd.sh ..."   >> /home/pi/Desktop/allinone.log
+#echo "starting afterhostapd.sh ..."   >> /home/pi/Desktop/allinone.log
 touch /tmp/dnsmasq.log
 chmod 777 /tmp/dnsmasq.log
-sudo bash /usr/share/dns-sinkhole-ap/temp-run/run-afterhostapd.sh   >> /home/pi/Desktop/allinone.log
+sudo bash /usr/share/dns-sinkhole-ap/temp-run/run-afterhostapd.sh   #>> /home/pi/Desktop/allinone.log
 
 # set up IP forwarding
-echo "starting ipforward.sh ..."   >> /home/pi/Desktop/allinone.log
-sudo bash /usr/share/dns-sinkhole-ap/temp-run/run-ipforward.sh   >> /home/pi/Desktop/allinone.log
-echo "################################################################ END ###################################################"   >> /home/pi/Desktop/allinone.log
+#echo "starting ipforward.sh ..."   >> /home/pi/Desktop/allinone.log
+sudo bash /usr/share/dns-sinkhole-ap/temp-run/run-ipforward.sh   #>> /home/pi/Desktop/allinone.log
+#echo "################################################################ END ###################################################"   >> /home/pi/Desktop/allinone.log
