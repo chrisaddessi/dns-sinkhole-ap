@@ -31,3 +31,10 @@ This is a tool to get lists from the internet.
 0.0.0.0 domain.name
 127.0.0.1 domain.com
 ```
+
+## How It Works
+This set of scripts works by utilizing:
+-dnamasq: for dns and dhcp
+-hostapd: for creation of wifi acess point
+-crontab: to start the program on reboot
+-iptables-persistent: to bridge the network traffic across interfaces
