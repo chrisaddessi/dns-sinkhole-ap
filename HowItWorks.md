@@ -2,7 +2,7 @@
 ## Creating the Wireless Acess Point (AP)
 To do this I chose to use the ```hostapd``` package.
 hostapd.conf
-```
+```bash
 #THIS MAKES A AP WITH NO PASSWORD CALLED "AP NAME"
 interface=wlan0
 driver=nl80211
