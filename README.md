@@ -39,3 +39,5 @@ This set of scripts works by utilizing:
 Yes. I left this as an unfinished product for the purpose of others and my friends to build off of. Otherwise how would they learn the compoents if it was built like something you would buy off the self.
 
 # Learning About How This All Works:
+## Creating the Wireless Acess Point (AP)
+To do this I chose to use the ```hostapd``` package
