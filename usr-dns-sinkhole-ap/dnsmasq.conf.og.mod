@@ -1,7 +1,6 @@
 dhcp-range=192.168.1.2,192.168.1.30,255.255.255.0,12h
 dhcp-option=3,192.168.1.254
 dhcp-option=6,192.168.1.254
-#server=94.140.14.14
 server=192.168.1.254
 addn-hosts=/usr/share/dns-sinkhole-ap/dns-sinkhole-lists
 log-queries
