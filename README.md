@@ -19,10 +19,6 @@ sudo bash uninstall.sh
 ```
 
 ## Other Features
-dnsmasq logs are saved
-```bash
-/tmp/dnsmaq.conf
-```
 ### DNS-sinkhole-get.py
 This is a tool to get lists from the internet.
 ##### The format must be as follows for it to work with dnsmasq
@@ -38,3 +34,8 @@ This set of scripts works by utilizing:
 -hostapd: for creation of wifi acess point
 -crontab: to start the program on reboot
 -iptables-persistent: to bridge the network traffic across interfaces
+
+## Not Complete!
+Yes. I left this as an unfinished product for the purpose of others and my friends to build off of. Otherwise how would they learn the compoents if it was built like something you would buy off the self.
+
+# Learning About How This All Works:
