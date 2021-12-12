@@ -4,6 +4,6 @@ dhcp-option=6,192.168.1.254
 server=192.168.1.254
 addn-hosts=/usr/share/dns-sinkhole-ap/dns-sinkhole-lists
 log-queries
-log-facility=/tmp/dnsmasq.log
+#log-facility=/tmp/dnsmasq.log
 log-dhcp
 listen-address=127.0.0.1
