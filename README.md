@@ -25,7 +25,7 @@ There is a web portal to manage the DNS-sinkhole AP (Acess Point) name at the ga
 192.168.1.254:8080
 ```
 This web portal allows for the ability to change the AP name and if the proper drivers are installed a separate network card can be used as the broadcast NIC and the onboard NIC used as the source connected to the internet. <br />
-The web portal is designd using php.
+###### The web portal is designd using php.
 
 
 ### DNS-sinkhole-get.py
