@@ -41,11 +41,11 @@ This script is a tool to get lists from websites with the follow format for doma
 ```
 
 ## How It Works
-This set of scripts works by utilizing:
--dnamasq: for dns and dhcp
--hostapd: for creation of wifi acess point
--crontab: to start the program on reboot
--iptables-persistent: to bridge the network traffic across interfaces
+This set of scripts works by utilizing:<br />
+-dnamasq: for dns and dhcp<br />
+-hostapd: for creation of wifi acess point<br />
+-crontab: to start the program on reboot<br />
+-iptables-persistent: to bridge the network traffic across interfaces<br />
 
 ## Not Complete!
 Yes. I left this as an unfinished product for the purpose of others and my friends to build off of. Otherwise how would they learn the compoents if it was built like something you would buy off the self.
