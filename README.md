@@ -20,7 +20,7 @@ sudo bash uninstall.sh
 ```
 ### Connect
 Once you have run the install scipt you are now ready to connect. <br />
-Wait about 2 minutes and the look for a WiFi network ssid: ```DefaultName```
+Wait about 2 minutes then look for a WiFi network ssid: ```DefaultName```
 
 ### Test
 Test to see if your dns-sinkhole works ping the domain name an domain listed in ```/usr/share/dns-sinkhole-ap/dns-sinkhole-lists```. ###### do this on a device that is not connected to your dns-sinkhole-ap <br />
