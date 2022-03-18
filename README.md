@@ -1,5 +1,5 @@
 # dns-sinkhole-ap
-make a DNS-sinkhole on a raspberry pi running the raspberry pi os 
+make a dns-sinkhole on a raspberry pi running the Raspberry Pi OS 
 
 ### Installation
 To install:
@@ -36,12 +36,12 @@ Reply from 172.217.10.98: bytes=32 time=8ms TTL=115
 Reply from 172.217.10.98: bytes=32 time=8ms TTL=115
 ...
 ```
-Now connect to the DNS-sinkhole-ap and do the same.
+Now connect to the dns-sinkhole-ap and do the same.
 ```
 ping adservice.google.com
 ```
 As you can see the IP address that is showing is whatever IP is set in one of the dns-sinkhole list files.
-So, a DNS-sinkhole is just giving out non-routable IP address. This is good for blocking advertisement domains as well as domains associated with malware.
+So, a dns-sinkhole is just giving out non-routable IP address. This is good for blocking advertisement domains as well as domains associated with malware.
 ```
 Pinging adservice.google.com [127.0.0.1] with 32 bytes of data:
 Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
@@ -55,7 +55,7 @@ Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
 
 ## Other Features
 ### Web Portal Management
-There is a web portal to manage the DNS-sinkhole AP (Access Point) name at the gateway on port 8080. 
+There is a web portal to manage the dns-sinkhole AP (Access Point) name at the gateway on port 8080. 
 ```
 192.168.1.254:8080
 ```
@@ -81,3 +81,5 @@ This set of scripts works by utilizing:<br />
 
 ## Not Complete!
 Yes. I left this as an unfinished product for the purpose of others and my friends to build off of. Otherwise how would they learn the compoents if it was built like something you would buy off the self.
+
+
