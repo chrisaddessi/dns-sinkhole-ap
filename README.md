@@ -19,8 +19,17 @@ sudo bash uninstall.sh
 ```
 
 ## Other Features
+### Web Portal Management
+There is a web portal to manage the DNS-sinkhole AP (Acess Point) name at the gateway on port 8080. 
+```
+192.168.1.254:8080
+```
+This web portal allows for the ability to change the AP name and if the proper drivers are installed a separate network card can be used as the broadcast NIC and the onboard NIC used as the source connected to the internet. 
+The web portal is designd using php.
+
+
 ### DNS-sinkhole-get.py
-This is a tool to get lists from the internet.
+This script is a tool to get lists from websites with the follow format for domains.
 ##### The format must be as follows for it to work with dnsmasq
 ###### ip[space]domain.name
 ```
