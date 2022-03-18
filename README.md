@@ -1,5 +1,6 @@
 # dns-sinkhole-ap
-make a dns-sinkhole on a raspberry pi running the Raspberry Pi OS 
+make a dns-sinkhole on a Raspberry Pi running the Raspberry Pi OS 
+###### (Only tested on Raspberry Pi 4 18 MAR 2022)
 
 ### Installation
 To install:
