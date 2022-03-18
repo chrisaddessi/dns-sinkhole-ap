@@ -17,6 +17,9 @@ To remove:
 ```bash
 sudo bash uninstall.sh
 ```
+### Connect
+Once you have run the install scipt you are now ready to connect. <br />
+Wait about 2 minutes and the look for a WiFi network ssid: ```DefaultName```
 
 ## Other Features
 ### Web Portal Management
